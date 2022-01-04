@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .header-img {
     width: 500px;
     height: 400px;
@@ -6,4 +12,125 @@
 img {
     width: 300px;
     height: 200px;
+}
+
+.container1 {
+    background-color: #1f2937;
+}
+
+.body {
+    all: unset;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Hero', sans-serif;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+p {
+    font-family: 'Hero', sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.header-center {
+    display: flex;
+    margin: 100px;
+    padding: 50px;
+    gap: 90px;
+}
+
+.header-center div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header h3 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -70px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: light-italic;
+    color: #1f2937;
+    display: flex;
+    padding: 150px;
+    display: inline-block;
+}
+
+.author {
+    position: absolute;
+    right: 0;
+    margin: 50px;
+}
+
+a {
+    margin: 8px;
+}
+
+.center {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    position: relative;
+    top: -40px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    color: white;
+    padding: 50px;
+    margin: 120px;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+.signup button {
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+    padding: 12px;
+    margin: auto;
+    position: absolute;
+    right: 300px;
+}
+
+.footer {
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
